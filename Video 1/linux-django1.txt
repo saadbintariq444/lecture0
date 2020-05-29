@@ -1,0 +1,58 @@
+==============================================Video 1=================================================================================
+=======for linux==========
+
+---To update packages---
+1)sudo apt-get update
+2)sudo apt-get upgrade
+
+-----To install Git----------
+3)sudo apt-get install git
+
+-----To check git version----
+1)git --version
+
+------Already present repository on githhub copy to your device(windows/linux)------
+4)cd Desktop
+5)git clone https://github.com/saadbintariq444/lecture0.git
+6)cd lecture0.git
+
+-------------------to create a file in linux-----------------------------
+7)touch hello.html
+
+--------------------install atom in linux--------------------------------
+1) Download .deb file
+2) open containg folder
+cd to path of containg folder
+3)type the command from git web installation
+
+
+---------------------open file in atom from windows---------------------------
+1)atom .
+
+----------------to add to git from windows-----------------------------------
+1) git config --global user.email "saadbintariq444@gmail.com"
+   git config --global user.name "saadbintariq444"
+2) git add .
+3) git commit -am "first commit to project notes"
+4) git push origin 
+
+----------------to add changes to git from windows/linux simple-----------------------------------
+1)git add touch.html
+2)git commit -m "first commit"
+3)git status
+4)git push
+
+------------------now to get the changes we made on windows to linux------------------------------
+5) git pull
+
+------------------if we want to get specific update using "pull"----------------------------------
+we have to resolve merge conflict manualyy
+
+---------------------if u want to know the number of commits or history--------------------------
+6) git log
+   git reflog
+
+------------------------to go back to the previous version of your code------------------------
+7) git reset
+   git reset --hard 573384730     //back to a specific commit 
+   git reset --hard origin/master //back to the base code version exactly like clone from github interent

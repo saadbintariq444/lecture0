@@ -1,0 +1,30 @@
+==============================================Video 2=================================================================================
+-------how to make a feature then merge feature & branch then pull-----------------------
+1)git branch                 //to check active branch
+2)git branch branchname      //to make a branch
+3)git checkout branchname    //to move to feature branch
+4)git merge master           //come to master brach and merge feature branch in it
+
+-------------------if from scratch---------------------------------
+1)git clone https://github.com/saadbintariq444/lecture1.git
+2)git branch                               //to check active branch
+3)git branch feature                       //to make a branch
+4)git checkout feature                     //to move to feature branch
+5)git push --set-upstream origin feature  //changes i.e feature will be addded to internet github will 
+
+
+----------in your laptop you have branch & feature along with the 2commit "master"-----------------------------
+          but on internet you have branch & feature along with the 5commit "origin/master"
+Now you will have to fetch
+ 1)git fetch                  //now u will have 5 commits  
+ 2)git merge origin/master    //now u will merge 3, 5 commits to get exactly one version of code at your local machine
+
+
+or simply you can do:
+ !) git pull
+
+
+------------------------------------now "fork" & "pull request" usually when we contribute to open souurce code on git hub------------
+fork : you take a version of repository to your local machine, work on it or add features
+pull request: you send your feature to be merged request to the author , to add in the orignal repository ,
+

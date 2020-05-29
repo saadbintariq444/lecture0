@@ -1,0 +1,5 @@
+we can make responsive design by following ways:
+1) viewport
+2) Media queries
+3) Fire Box
+4) Grids
