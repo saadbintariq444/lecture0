@@ -1,0 +1,26 @@
+
+{% extends "layout.html" %}
+
+{% block heading %} My Form {% endblock %}
+
+{% block body %}
+<div class="listing">
+
+  <ul>
+    {% for i in notes %}
+       <li>{{i}}</li>
+    {% endfor %}
+  </ul>
+  
+</div>
+
+<center>
+<div class="fori" >
+  <form class="" action="{{url_for('index')}}" method="post" >
+    <input type="text" name="note" value="" placeholder="Enter your text">
+  <button type="submit" name="button">Submit</button>
+  </form>
+  </center>
+</div>
+
+{% endblock %}

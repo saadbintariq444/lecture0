@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My website</title>
+<style media="screen">
+  h1{
+    color: red;
+  }
+  ul li{
+    text-align: center;
+  }
+  .listing{
+    padding: 40px;
+    margin: 20px;
+    color:darkgreen;
+    background-color:skyblue;
+  }
+  .fori{
+    padding: 70px;
+    margin: 20px;
+    color: yelllow;
+    background-color: teal;
+  }
+</style>
+  </head>
+  <body>
+
+  <h1>{% block heading %} {% endblock %}</h1>
+
+    {% block body %}
+
+    {% endblock %}
+
+  </body>
+</html>

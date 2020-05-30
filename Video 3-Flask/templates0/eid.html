@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  <style media="screen">
+    .pak{
+      background-color:teal;
+      color:skyblue;
+      margin-top:250px;
+      padding:20px;
+      border:2px solid black;  
+      align:center;
+    }
+    
+  </style>
+  </head>
+  
+  <body>
+    {% if eid %}
+      <div class="pak">
+        <center><h1>Eid-ul-fitar Mubarak</h1></center>  
+      </div>
+          
+    {% else %}
+      <div class="pak">
+        <center><h1>Wait for next year</h1></center>  
+      </div>
+    
+    {% endif %}
+    
+    
+  </body>
+</html>

@@ -1,0 +1,34 @@
+
+   0)cd to project
+///////////////////////////////////////////////////////////////////////////////
+A)make virtual environment in your project using Git-CMD
+   1)py -m venv env
+   2)env\Scripts\activate
+           or
+
+        1)pip install virtualenvwrapper-win //if no virtual box
+        1.1)mkvirtualenv Environment1
+        2)pip install Django==1.11.4
+        2.2)workon Environments//to activate the environment
+        2.3)django-admin --version //to checck version
+        3)mkdir projects
+        cd
+        4)django-admin startproject projectname
+        5)cd projecctname
+        6)python manage.py runserver //to run
+///////////////////////////////////////////////////////////////////////////////
+B) Install flask on CMD
+
+   3)pip install flask
+///////////////////////////////////////////////////////////////////////////////
+C) set application name environment on CMD
+     WINDOWS
+   4)set Video 3-Flask=app.py
+     Linux
+   4)export Video 3-Flask=app.py
+D) Closing the Environment
+   5) deactivate
+
+E) to install a Session
+
+   6)pip3 install flask-session
